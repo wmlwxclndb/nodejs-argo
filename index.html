@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeFlow | Visual Development Platform</title>
+    <title>诚信会计 | 专业财税代理 记账报税 审计咨询</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            scroll-behavior: smooth;
         }
         
         body {
@@ -74,6 +75,7 @@
         .nav-links {
             display: flex;
             list-style: none;
+            transition: all 0.3s ease;
         }
         
         .nav-links li {
@@ -295,6 +297,7 @@
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: opacity 0.5s ease;
         }
         
         .testimonial-text {
@@ -314,7 +317,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #ddd;
+            background-color: #eef2ff;
             margin-right: 15px;
             display: flex;
             align-items: center;
@@ -570,19 +573,19 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <div class="logo-icon"><i class="fas fa-bezier-curve"></i></div>
-                    <div class="logo-text">Code<span>Flow</span></div>
+                    <div class="logo-icon"><i class="fas fa-calculator"></i></div>
+                    <div class="logo-text">诚信<span>会计</span></div>
                 </div>
                 
                 <ul class="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#">Resources</a></li>
+                    <li><a href="#features">服务项目</a></li>
+                    <li><a href="#benefits">服务优势</a></li>
+                    <li><a href="#testimonials">客户评价</a></li>
+                    <li><a href="#pricing">服务套餐</a></li>
+                    <li><a href="#">财税资讯</a></li>
                 </ul>
                 
-                <button class="cta-button">Start Free Trial</button>
+                <button class="cta-button">免费咨询</button>
                 <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
             </nav>
         </div>
@@ -593,15 +596,15 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Build Apps Faster With <span>Visual Development</span></h1>
-                    <p>CodeFlow empowers teams to create enterprise-grade applications with minimal coding. Drag, drop, and connect components to build powerful web and mobile apps in record time.</p>
+                    <h1>专业财税服务，让企业<span>安心经营</span></h1>
+                    <p>我们提供一站式会计代理、记账报税、税务筹划、审计验资等服务，帮助中小企业降低成本、合规经营、快速发展。</p>
                     <div class="hero-buttons">
-                        <button class="cta-button">Start Building Free</button>
-                        <button class="secondary-button">Watch Demo</button>
+                        <button class="cta-button">立即咨询</button>
+                        <button class="secondary-button">查看服务</button>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CodeFlow Platform Interface">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="会计财税服务">
                 </div>
             </div>
         </div>
@@ -611,57 +614,57 @@
     <section class="features" id="features">
         <div class="container">
             <div class="section-title">
-                <h2>Powerful Features for Rapid Development</h2>
-                <p>CodeFlow provides all the tools you need to build, deploy, and scale applications without writing extensive code.</p>
+                <h2>我们的专业服务</h2>
+                <p>为各类企业提供全方位、专业化、定制化的财税解决方案</p>
             </div>
             
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-th-large"></i>
+                        <i class="fas fa-file-invoice-dollar"></i>
                     </div>
-                    <h3>Visual Builder</h3>
-                    <p>Drag and drop UI components to design responsive interfaces. Connect data sources with simple point-and-click actions.</p>
+                    <h3>代理记账</h3>
+                    <p>月度/季度记账、凭证整理、账簿编制、财务报表生成，专业会计团队全程服务。</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-database"></i>
+                        <i class="fas fa-percentage"></i>
                     </div>
-                    <h3>Database Integration</h3>
-                    <p>Connect to any data source with built-in connectors. Automatically generate CRUD operations without writing SQL.</p>
+                    <h3>税务申报</h3>
+                    <p>增值税、企业所得税、个税等全税种申报，确保及时准确，避免税务风险。</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fas fa-lightbulb"></i>
                     </div>
-                    <h3>Cross-Platform</h3>
-                    <p>Build once, deploy everywhere. Generate applications for web, iOS, and Android from a single visual design.</p>
+                    <h3>税务筹划</h3>
+                    <p>合法合规优化税务结构，降低企业税负，提供专业节税方案与风险评估。</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-code"></i>
+                        <i class="fas fa-balance-scale"></i>
                     </div>
-                    <h3>Extensible with Code</h3>
-                    <p>Add custom functionality with JavaScript when needed. Our platform doesn't limit your creativity or complexity.</p>
+                    <h3>审计验资</h3>
+                    <p>财务审计、验资报告、汇算清缴、专项审计，正规资质，高效出具报告。</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
+                        <i class="fas fa-building"></i>
                     </div>
-                    <h3>Enterprise Security</h3>
-                    <p>Built-in authentication, authorization, and data encryption. SOC2 compliant with enterprise-grade security features.</p>
+                    <h3>工商注册</h3>
+                    <p>公司注册、变更、注销、资质办理，一站式工商服务，快速领证开业。</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-user-tie"></i>
                     </div>
-                    <h3>One-Click Deployment</h3>
-                    <p>Deploy to cloud or on-premises with a single click. Automatic scaling and monitoring included.</p>
+                    <h3>财务咨询</h3>
+                    <p>企业财务体系搭建、成本控制、现金流管理、内控设计等专业顾问服务。</p>
                 </div>
             </div>
         </div>
@@ -671,41 +674,41 @@
     <section class="benefits" id="benefits">
         <div class="container">
             <div class="section-title">
-                <h2>Why Choose CodeFlow?</h2>
-                <p>Join thousands of companies accelerating their digital transformation with low-code development.</p>
+                <h2>选择我们的理由</h2>
+                <p>10年财税行业经验，持证会计师团队，已服务超2000家企业客户</p>
             </div>
             
             <div class="benefits-grid">
                 <div class="benefit-item">
                     <div class="benefit-icon">
-                        <i class="fas fa-bolt"></i>
+                        <i class="fas fa-certificate"></i>
                     </div>
-                    <h3>10x Faster Development</h3>
-                    <p>Build applications in days instead of months with visual development tools.</p>
+                    <h3>专业资质</h3>
+                    <p>正规代理记账许可证，会计师、税务师团队，经验丰富，专业可靠。</p>
                 </div>
                 
                 <div class="benefit-item">
                     <div class="benefit-icon">
-                        <i class="fas fa-money-bill-wave"></i>
+                        <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Reduce Costs by 70%</h3>
-                    <p>Lower development and maintenance costs with fewer resources required.</p>
+                    <h3>安全保密</h3>
+                    <p>严格保密企业财务数据，签订保密协议，保障客户信息绝对安全。</p>
                 </div>
                 
                 <div class="benefit-item">
                     <div class="benefit-icon">
-                        <i class="fas fa-users"></i>
+                        <i class="fas fa-clock"></i>
                     </div>
-                    <h3>Citizen Developers</h3>
-                    <p>Enable business users to build solutions with minimal IT assistance.</p>
+                    <h3>高效及时</h3>
+                    <p>记账报税绝不逾期，业务办理快速响应，节省企业时间与精力。</p>
                 </div>
                 
                 <div class="benefit-item">
                     <div class="benefit-icon">
-                        <i class="fas fa-chart-line"></i>
+                        <i class="fas fa-hand-holding-usd"></i>
                     </div>
-                    <h3>Scale Effortlessly</h3>
-                    <p>From prototype to enterprise-scale applications with the same platform.</p>
+                    <h3>高性价比</h3>
+                    <p>费用远低于聘请专职会计，服务更专业，大幅降低企业运营成本。</p>
                 </div>
             </div>
         </div>
@@ -715,20 +718,20 @@
     <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-title">
-                <h2>Trusted by Industry Leaders</h2>
-                <p>See what our customers have to say about their experience with CodeFlow.</p>
+                <h2>客户真实评价</h2>
+                <p>听听我们的客户如何评价诚信会计的专业服务</p>
             </div>
             
             <div class="testimonial-slider">
                 <div class="testimonial">
                     <div class="testimonial-text">
-                        "CodeFlow transformed how we deliver solutions to our business units. What used to take 6 months now takes 3 weeks. Our development team can focus on complex problems while business teams build their own solutions."
+                        "合作3年多，记账报税从未出错，税务筹划帮我们节省了不少税费。会计专业又耐心，有问必答，非常放心。"
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">SC</div>
+                        <div class="author-avatar">张</div>
                         <div class="author-info">
-                            <h4>Sarah Chen</h4>
-                            <p>CTO, TechGrowth Inc.</p>
+                            <h4>张先生</h4>
+                            <p>科技公司创始人</p>
                         </div>
                     </div>
                 </div>
@@ -740,51 +743,51 @@
     <section class="pricing" id="pricing">
         <div class="container">
             <div class="section-title">
-                <h2>Simple, Transparent Pricing</h2>
-                <p>Choose the plan that fits your needs. All plans include core features with no hidden fees.</p>
+                <h2>服务套餐</h2>
+                <p>透明收费，无隐形消费，根据企业需求灵活选择</p>
             </div>
             
             <div class="pricing-grid">
                 <div class="pricing-card">
-                    <h3 class="plan-name">Starter</h3>
-                    <div class="plan-price">$29<span>/month</span></div>
+                    <h3 class="plan-name">小规模套餐</h3>
+                    <div class="plan-price">¥200<span>/月起</span></div>
                     <ul class="plan-features">
-                        <li>Up to 5 users</li>
-                        <li>10 GB storage</li>
-                        <li>Basic components</li>
-                        <li>Community support</li>
-                        <li>1 production app</li>
+                        <li>月度记账报税</li>
+                        <li>凭证整理装订</li>
+                        <li>财务报表出具</li>
+                        <li>税务咨询解答</li>
+                        <li>工商年报服务</li>
                     </ul>
-                    <button class="secondary-button">Get Started</button>
+                    <button class="secondary-button">立即选购</button>
                 </div>
                 
                 <div class="pricing-card featured">
-                    <div class="featured-badge">Most Popular</div>
-                    <h3 class="plan-name">Professional</h3>
-                    <div class="plan-price">$89<span>/month</span></div>
+                    <div class="featured-badge">热门推荐</div>
+                    <h3 class="plan-name">一般纳税人</h3>
+                    <div class="plan-price">¥500<span>/月起</span></div>
                     <ul class="plan-features">
-                        <li>Up to 25 users</li>
-                        <li>100 GB storage</li>
-                        <li>All components</li>
-                        <li>Priority support</li>
-                        <li>10 production apps</li>
-                        <li>Custom branding</li>
+                        <li>全套账务处理</li>
+                        <li>进销项发票管理</li>
+                        <li>增值税申报</li>
+                        <li>税务风险预警</li>
+                        <li>专属会计对接</li>
+                        <li>免费财税培训</li>
                     </ul>
-                    <button class="cta-button">Try Free for 14 Days</button>
+                    <button class="cta-button">咨询详情</button>
                 </div>
                 
                 <div class="pricing-card">
-                    <h3 class="plan-name">Enterprise</h3>
-                    <div class="plan-price">Custom</div>
+                    <h3 class="plan-name">企业定制</h3>
+                    <div class="plan-price">面议</div>
                     <ul class="plan-features">
-                        <li>Unlimited users</li>
-                        <li>Unlimited storage</li>
-                        <li>All features included</li>
-                        <li>24/7 dedicated support</li>
-                        <li>Unlimited apps</li>
-                        <li>On-premises option</li>
+                        <li>税务筹划方案</li>
+                        <li>财务体系搭建</li>
+                        <li>专项审计服务</li>
+                        <li>一对一顾问服务</li>
+                        <li>高新企业认定</li>
+                        <li>全方位财税支持</li>
                     </ul>
-                    <button class="secondary-button">Contact Sales</button>
+                    <button class="secondary-button">定制方案</button>
                 </div>
             </div>
         </div>
@@ -793,9 +796,9 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
-            <h2>Start Building Today</h2>
-            <p>Join over 10,000 companies that use CodeFlow to accelerate their application development. No credit card required for the free trial.</p>
-            <button class="cta-button">Get Started for Free</button>
+            <h2>立即获取专属财税方案</h2>
+            <p>免费财税诊断 + 一对一咨询服务，帮您解决企业所有财务税务问题</p>
+            <button class="cta-button">免费咨询</button>
         </div>
     </section>
 
@@ -805,59 +808,58 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <div class="logo">
-                        <div class="logo-icon"><i class="fas fa-bezier-curve"></i></div>
-                        <div class="logo-text">Code<span>Flow</span></div>
+                        <div class="logo-icon"><i class="fas fa-calculator"></i></div>
+                        <div class="logo-text">诚信<span>会计</span></div>
                     </div>
-                    <p style="margin-top: 20px; color: #aaa;">The leading visual development platform for building enterprise applications with minimal coding.</p>
+                    <p style="margin-top: 20px; color: #aaa;">专注中小企业财税服务，让创业更简单，让财税更安全。</p>
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Product</h3>
+                    <h3>服务项目</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Use Cases</a></li>
-                        <li><a href="#">Integrations</a></li>
-                        <li><a href="#">Roadmap</a></li>
+                        <li><a href="#">代理记账</a></li>
+                        <li><a href="#">税务申报</a></li>
+                        <li><a href="#">工商注册</a></li>
+                        <li><a href="#">税务筹划</a></li>
+                        <li><a href="#">审计验资</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Resources</h3>
+                    <h3>支持与帮助</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Tutorials</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Community</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">财税知识</a></li>
+                        <li><a href="#">政策解读</a></li>
+                        <li><a href="#">服务流程</a></li>
+                        <li><a href="#">联系我们</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Company</h3>
+                    <h3>关于我们</h3>
                     <ul class="footer-links">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">团队优势</a></li>
+                        <li><a href="#">客户案例</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">服务条款</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="copyright">
-                <p>&copy; 2023 CodeFlow. All rights reserved.</p>
+                <p>&copy; 2025 诚信会计服务有限公司 保留所有权利</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Mobile menu toggle
+        // 移动端菜单
         document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
             const navLinks = document.querySelector('.nav-links');
             navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
             
-            // Adjust for mobile
             if (window.innerWidth <= 768) {
                 if (navLinks.style.display === 'flex') {
                     navLinks.style.flexDirection = 'column';
@@ -869,56 +871,32 @@
                     navLinks.style.padding = '20px';
                     navLinks.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
                     
-                    const navItems = document.querySelectorAll('.nav-links li');
-                    navItems.forEach(item => {
+                    document.querySelectorAll('.nav-links li').forEach(item => {
                         item.style.margin = '10px 0';
                     });
                 }
             }
         });
         
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if(targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if(targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    if(window.innerWidth <= 768) {
-                        document.querySelector('.nav-links').style.display = 'none';
-                    }
-                }
-            });
-        });
-        
-        // Simple testimonial slider
+        // 客户评价轮播
         const testimonials = [
             {
-                text: "CodeFlow transformed how we deliver solutions to our business units. What used to take 6 months now takes 3 weeks. Our development team can focus on complex problems while business teams build their own solutions.",
-                name: "Sarah Chen",
-                position: "CTO, TechGrowth Inc.",
-                initials: "SC"
+                text: "合作3年多，记账报税从未出错，税务筹划帮我们节省了不少税费。会计专业又耐心，有问必答，非常放心。",
+                name: "张先生",
+                position: "科技公司创始人",
+                initials: "张"
             },
             {
-                text: "We reduced our app development time by 80% using CodeFlow. The visual interface made it easy for our analysts to build data dashboards without waiting for IT resources.",
-                name: "Marcus Johnson",
-                position: "Director of Operations, DataCorp",
-                initials: "MJ"
+                text: "从公司注册就一直找他们，服务很专业，价格透明，每个月都会按时提醒报税，省去了我们很多麻烦。",
+                name: "李女士",
+                position: "贸易公司总经理",
+                initials: "李"
             },
             {
-                text: "As a non-technical founder, CodeFlow allowed me to build our MVP in just 2 months. I could test ideas quickly and iterate based on user feedback without deep coding knowledge.",
-                name: "Lisa Wang",
-                position: "Founder, StartupLabs",
-                initials: "LW"
+                text: "对比了好几家会计公司，最终选择诚信，专业度最高，响应速度快，遇到税务问题都能及时解决，强烈推荐！",
+                name: "王先生",
+                position: "餐饮连锁创始人",
+                initials: "王"
             }
         ];
         
@@ -927,38 +905,34 @@
         
         function rotateTestimonial() {
             currentTestimonial = (currentTestimonial + 1) % testimonials.length;
-            updateTestimonial();
+            testimonialElement.style.opacity = '0';
+            
+            setTimeout(() => {
+                updateTestimonial();
+                testimonialElement.style.opacity = '1';
+            }, 300);
         }
         
         function updateTestimonial() {
-            const testimonial = testimonials[currentTestimonial];
+            const t = testimonials[currentTestimonial];
             testimonialElement.innerHTML = `
-                <div class="testimonial-text">"${testimonial.text}"</div>
+                <div class="testimonial-text">"${t.text}"</div>
                 <div class="testimonial-author">
-                    <div class="author-avatar">${testimonial.initials}</div>
+                    <div class="author-avatar">${t.initials}</div>
                     <div class="author-info">
-                        <h4>${testimonial.name}</h4>
-                        <p>${testimonial.position}</p>
+                        <h4>${t.name}</h4>
+                        <p>${t.position}</p>
                     </div>
                 </div>
             `;
         }
         
-        // Auto-rotate testimonials every 5 seconds
         setInterval(rotateTestimonial, 5000);
         
-        // CTA button interactions
-        document.querySelectorAll('.cta-button').forEach(button => {
-            button.addEventListener('click', function() {
-                alert('Thank you for your interest in CodeFlow! You would be redirected to the signup page in a real implementation.');
-            });
-        });
-        
-        // Pricing card interactions
-        document.querySelectorAll('.pricing-card button').forEach(button => {
-            button.addEventListener('click', function() {
-                const planName = this.closest('.pricing-card').querySelector('.plan-name').textContent;
-                alert(`You selected the ${planName} plan. In a real implementation, you would be redirected to the checkout process.`);
+        // 按钮交互
+        document.querySelectorAll('.cta-button, .secondary-button').forEach(btn => {
+            btn.addEventListener('click', () => {
+                alert('感谢您的咨询！我们会尽快与您联系，为您提供专业财税服务。');
             });
         });
     </script>
